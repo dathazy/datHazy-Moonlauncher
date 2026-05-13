@@ -1,0 +1,51 @@
+{
+  "version": "0.9.0",
+  "status": "Online",
+
+  "app": "UMVC3",
+
+  "pairServers": {
+    "lobby": "stream.dathazy.com",
+    "tournament": "pair.dathazy.com"
+  },
+
+  "pairDelayMs": 5000,
+  "postLaunchLockMs": 3000,
+
+  "recommendedArgs": "--720 --fps 60 --bitrate 15000 --video-codec hevc --no-vsync --video-decoder hardware",
+
+  "stations": {
+    "lobby": [
+      {
+        "name": "Stream (Hazy WC)",
+        "host": "stream.dathazy.com"
+      },
+      {
+        "name": "Station 2 (Hazy WC2)",
+        "host": "station2.dathazy.com"
+      }
+    ],
+    "tournament": [
+      {
+        "name": "Stream Station",
+        "host": "stream.dathazy.com"
+      },
+      {
+        "name": "Station 2",
+        "host": "station2.dathazy.com"
+      },
+	  {
+        "name": "Station 3",
+        "host": "station3.dathazy.com"
+      },
+	  {
+        "name": "Station 4",
+        "host": "station3.dathazy.com"
+      },
+      {
+        "name": "Station 5",
+        "host": "station3.dathazy.com"
+      }
+    ]
+  }
+}
